@@ -20,7 +20,7 @@ namespace ProjectTesting.Controllers
 
         public IActionResult Privacy()
         {
-            return Content("Testing the integration of GitHub project");
+            return Content("Testing the integration");
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
