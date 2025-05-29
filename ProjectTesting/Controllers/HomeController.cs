@@ -23,6 +23,11 @@ namespace ProjectTesting.Controllers
             return Content("Testing the integration");
         }
 
+        public IActionResult GitHub()
+        {
+            return Content("First commit done created for second commit");
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
