@@ -27,6 +27,10 @@ namespace ProjectTesting.Controllers
         {
             return Content("First commit done created for second commit"); 
         }
+        public IActionResult Test2()
+        {
+            return Content("Fetch main branch code to the current working branch");
+        }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
