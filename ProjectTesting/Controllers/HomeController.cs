@@ -31,6 +31,10 @@ namespace ProjectTesting.Controllers
         {
             return Content("Fetch main branch code to the current working branch");
         }
+        public IActionResult Test2()
+        {
+            return Content("Fetch main branch code to the current working branch");
+        }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
