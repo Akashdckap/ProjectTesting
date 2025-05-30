@@ -25,7 +25,7 @@ namespace ProjectTesting.Controllers
 
         public IActionResult GitHub()
         {
-            return Content("First commit done created for second commit");
+            return Content("First commit done created for second commit"); 
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
